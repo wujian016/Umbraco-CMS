@@ -404,6 +404,8 @@
     <Content Include="umbraco\images\thumbs_med.png" />
     <Content Include="umbraco\images\thumbs_smll.png" />
     <Content Include="umbraco\images\umbraco\settingView.gif" />
+    <Content Include="umbraco\LiveEditing\Modules\ItemEditing\ItemEditing.js" />
+    <Content Include="umbraco\LiveEditing\Modules\ItemEditing\ItemEditingInvoke.js" />
     <Content Include="umbraco\plugins\uGoLive\cog.png" />
     <Content Include="umbraco\plugins\uGoLive\cross.png" />
     <Content Include="umbraco\plugins\uGoLive\Dashboard.ascx" />
@@ -599,6 +601,7 @@
     <Content Include="umbraco_client\Installer\images\btn-buisness-repeat.png" />
     <Content Include="umbraco_client\Installer\images\btn-confirm.png" />
     <Content Include="umbraco_client\Installer\images\pbar.gif" />
+    <Content Include="umbraco_client\splitbutton\jquery.splitbutton.js" />
     <Content Include="umbraco_client\tags\css\jquery.tagsinput.css" />
     <Content Include="umbraco_client\tags\js\jquery.tagsinput.js" />
     <Content Include="umbraco_client\tags\js\jquery.tagsinput.min.js">
