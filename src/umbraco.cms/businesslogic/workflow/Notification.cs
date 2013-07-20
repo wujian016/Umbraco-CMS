@@ -343,8 +343,8 @@ namespace umbraco.cms.businesslogic.workflow
             oldString = oldString.Replace("&nbsp;", " ");
             oldString = oldString.Replace("&rsquo;", "'");
             oldString = oldString.Replace("&amp;", "&");
-            oldString = oldString.Replace("&ldquo;", "“");
-            oldString = oldString.Replace("&rdquo;", "”");
+            oldString = oldString.Replace("&ldquo;", "");
+            oldString = oldString.Replace("&rdquo;", "");
             oldString = oldString.Replace("&quot;", "\"");
         }
 

@@ -353,13 +353,13 @@ namespace umbraco.presentation.developer.packages
             {
                 string tmpFFFF = ((TextBox)rItem.FindControl("packageFilePath")).Text;
                 if (tmpFFFF.Trim() != "")
-                    tmpFilePathString += tmpFFFF + "ค";
+                    tmpFilePathString += tmpFFFF + "ก่";
             }
 
             cms.businesslogic.packager.CreatedPackage createdPackage = cms.businesslogic.packager.CreatedPackage.GetById(int.Parse(Request.QueryString["id"]));
             cms.businesslogic.packager.PackageInstance pack = createdPackage.Data;
           
-            pack.Files = new List<string>(tmpFilePathString.Trim('ค').Split('ค'));
+            pack.Files = new List<string>(tmpFilePathString.Trim('ก่').Split('ก่'));
             pack.Files.TrimExcess();
 
             createdPackage.Save();

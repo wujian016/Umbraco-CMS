@@ -40,7 +40,7 @@ namespace umbraco.presentation.umbraco.create
 				string returnUrl = presentation.create.dialogHandler_temp.Create(
 					helper.Request("nodeType"),
 					createFolder,
-                    relativepath + "ค" + rename.Text + "ค" + scriptType.SelectedValue);
+                    relativepath + "ก่" + rename.Text + "ก่" + scriptType.SelectedValue);
 
 				BasePage.Current.ClientTools
 					.ChangeContentFrameUrl(returnUrl)
